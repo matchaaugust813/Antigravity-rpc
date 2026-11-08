@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# logs & temp
+*.log
+*.tmp
+npm-debug.log*
+
+# local config / stats (normally live in ~/.antigravity-rpc; kept out in case they get copied here)
+config.json
+state.json
+aggregate*.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# packaged archives
+*.zip
+*.rar
